@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css">
     <title>Arknights</title>
 </head>
 <body>
+
+   
     <header>
         
         
         <nav class="navbar">
             <div class="navbarBrand">
-                <img src="/assets/logo01.png" alt="Brand Logo" >
+                <img src="assets/images/arknights_logo_white.png" alt="Brand Logo" >
             </div>
-            <ul class="navbarLink" id="navbarLink">
+            <ul class="navbarLink" >
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">CHARACTERS</a></li>
@@ -26,7 +28,7 @@
                 
             </ul>
 
-            <div class="hamburger" id="hamburger">
+            <div class="hamburger" >
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -35,17 +37,35 @@
         </nav>
 
     </header>
+
+    <nav>
+        <div >
+            <ul class="navbarMobile">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CHARACTERS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                
+            </ul>
+        </div>
+    </nav>
     <main>
-        <section >
-            <img src="/assets/arknights1.jpg" alt="" class="topBanner">
+        <section class="topBanner " >
+            <div class="welcome">welcome to arknights, join our fights.</div>
 
         </section>
-        <div class="title"><h1>WHAT IS ARKNIGHTS</h1></div>
+        <div class="title"><h1>what is arknights</h1></div>
         
         <section class="sectionInfo">
             
             <article class="boxArticle">
-                <img src="/assets/amiya1.jpeg" alt="" >
+                <picture>
+                    <source media="(min-width:1020px )" srcset="assets/images/storyline_large.png">
+                    <source media="(min-width:700px )" srcset="assets/images/storyline_medium.png">
+                    <img src="assets/images/storyline_small.png" alt="" >
+                </picture>
+                
                 <h2>Storyline</h2>
                 <p> The story begins with the player character, known as the "Doctor," 
                     arriving at Rhodes Island, a pharmaceutical company that has been specializes
@@ -53,72 +73,192 @@
                 </p>
             </article>
             <article class="boxArticle">
-                <img src="/assets/texas1.jpg" alt="" >
+                <picture>
+                    <source media="(min-width:1020px )" srcset="assets/images/strategy_large.webp">
+                    <source media="(min-width:700px )" srcset="assets/images/strategy_medium.png">
+                    <img src="assets/images/strategy_small.png" alt="" >
+                </picture>
                 <h2>Gameplay</h2>
                 <p>"Arknights" offers a unique blend of tower defense and strategy gameplay. The core of the gameplay revolves around
                      recruiting and deploying Operators, who are diverse characters with various classes and abilities.</p>
             </article>
 
             <article class="boxArticle">
-                <img src="/assets/operators.jpg" alt="" >
+                <picture>
+                    <source media="(min-width:1020px )" srcset="assets/images/operators_large.webp">
+                    <source media="(min-width:700px )" srcset="assets/images/operators_medium.png">
+                    <img src="assets/images/operators_small.png" alt="" >
+                </picture>
                 <h2>Operators</h2>
                 <p>In "Arknights," Operators are the main characters you collect, recruit, and deploy on the battlefield to complete missions
                      and challenges. Operators come in various classes, each with unique abilities and roles.</p>
             </article>
 
             <article class="boxArticle">
-                <img src="/assets/eventbanner.jpg" alt="" >
+                <picture>
+                    <source media="(min-width:1020px )" srcset="assets/images/eventpromo_large.png">
+                    <source media="(min-width:700px )" srcset="assets/images/eventpromo_medium.png">
+                    <img src="assets/images/eventpromo_small.png" alt="" >
+                </picture>
                 <h2>Event Banner</h2>
                 <p>"Arknights" regularly hosts special in-game events to keep the player community engaged and to introduce new content, 
                     challenges, and rewards. These events often come with unique storylines and gameplay elements.</p>
             </article>
         </section>
         
-        <div class="title">
-            <h1>FACTION</h1>
-        </div>
         
         <section class="sectionFaction">
+            <div class="title">
+                <h1>faction</h1>
+            </div>
+            <div class="flexFaction">
             
-            <article class="boxFaction">
-                
-                <img src="/assets/rhodes_island1.png" alt="" >
-                <p>Rhodes Island</p>
-            </article>
-            <article class="boxFaction">
-                <img src="/assets/penguinlogistics.png" alt="" >
-                <p>Penguin Logistics </p>
-            </article>
-            <article class="boxFaction">
-                <img src="/assets/rhine_lab2.png" alt="" >
-                <p>Rhine Labs</p>
-            </article>
-            <article class="boxFaction">
-                <img src="/assets/chen.jpg" alt="" >
-                <p>Lungmen Guard Department</p>
-            </article>
-            <article class="boxFaction">
-                <img src="/assets/blacksteel1.jpg" alt="" >
-                <p>Black Steel co.</p>
-            </article>
-            <article class="boxFaction">
-                <img src="/assets/Kazimierz.png" alt="" >
-                <p>Kazimierz</p>
-            </article>
-             
+                <article class="boxFaction">
+                    <picture>
+                        <source media="(min-width:700px )" srcset="assets/images/rhodes_island1.png">
+                        <img src="assets/images/rhodes_island1_small.png" alt="">
+                    </picture>
+                    
+                    <p>Rhodes Island</p>
+                </article>
+                <article class="boxFaction">
+                    <picture>
+                        <source media="(min-width:700px )" srcset="assets/images/penguinlogistics.webp">
+                        <img src="assets/images/penguinlogistics_small.webp" alt="">
+                    </picture>
+                    
+                    <p>Penguin Logistics </p>
+                </article>
+                <article class="boxFaction">
+                    <img src="assets/images/rhine_lab2.webp" alt="" >
+                    <p>Rhine Labs</p>
+                </article>
+                <article class="boxFaction">
+                    <img src="assets/images/chen.webp" alt="" >
+                    <p>Lungmen Guard Department</p>
+                </article>
+                <article class="boxFaction">
+                    <img src="assets/images/blacksteel1.jpg" alt="" >
+                    <p>Black Steel co.</p>
+                </article>
+                <article class="boxFaction">
+                    <img src="assets/images/Kazimierz.png" alt="" >
+                    <p>Kazimierz</p>
+                </article>
+                 
+    
+            </div>
+        </section>
+        
+       
 
+        <div class="title">
+            <h1>Photo Collections</h1>
+        </div>
+        <section>
+            <div class="containerCollection">
+                <div class="boxCollection item1">
+                    <picture>
+                        <source media="(min-width:1020px )" srcset="assets/images/amiya002.jpg">
+                        <source media="(min-width:700px )" srcset="assets/images/amiya002_medium.jpg">
+                        <img src="assets/images/amiya002_small.jpg" alt="" class="noColor">
+                    </picture>
+                </div>
+                <div class="boxCollection item2">
+                    <picture>
+                        <source media="(min-width:1020px )" srcset="assets/images/chen003.jpg">
+                        <source media="(min-width:700px )" srcset="assets/images/chen003_medium.jpg">
+                        <img src="assets/images/chen003_small.jpg" alt="" class="noColor">
+                    </picture>
+                   
+                </div>
+                <div class="boxCollection item3">
+                    <picture>
+                        <source media="(min-width:1020px )" srcset="assets/images/texas005.png">
+                        <source media="(min-width:700px )" srcset="assets/images/texas005_medium.png">
+                        <img src="assets/images/texas005_small.png" alt="" class="noColor">
+                    </picture>
+                    
+                </div>
+                <div class="boxCollection item4">
+                    <picture>
+                        <source media="(min-width:1020px )" srcset="assets/images/amiya004.png">
+                        <source media="(min-width:700px )" srcset="assets/images/amiya004_medium.png">
+                        <img src="assets/images/amiya004_small.png" alt="" class="noColor">
+                    </picture>
+                        
+                </div>
+                <div class="boxCollection item5">
+                    <picture>
+                        <source media="(min-width:1020px )" srcset="assets/images/chen005.jpg">
+                        <source media="(min-width:700px )" srcset="assets/images/chen005_medium.jpg">
+                        <img src="assets/images/chen005_small.jpg" alt="" class="noColor">
+                    </picture>
+                        
+                </div>
+                <div class="boxCollection item6">
+                    <picture>
+                        <source media="(min-width:1020px )" srcset="assets/images/texas006.jpg">
+                        <source media="(min-width:700px )" srcset="assets/images/texas006_medium.jpg">
+                        <img src="assets/images/texas006_small.jpg" alt="" class="noColor">
+                    </picture>
+                    
+                </div>
+                <!-- <div class="boxCollection"></div>
+                <div class="boxCollection"></div>
+                <div class="boxCollection"></div> -->
+
+            </div>
         </section>
 
-        <section>
+        <section class="sectionEvent">
+            <div class="boxEvent title">
+                <h1>november winter event</h1>
+                <picture>
+                    <source media="(min-width:1020px )" srcset="assets/images/eventbanner01.jpg">
+                    <source media="(min-width:700px )" srcset="assets/images/eventbanner01_medium.jpg">
+                    <img src="assets/images/eventbanner01_small.jpg" alt="">
+                </picture>
+                
+                
+                <p class="shadowedText">10 FREE PULLS OPERATORS</p>
+                <p>Duration: November 1, 2023, 03:59 (UTC-7) - November 15, 2023, 04:00 (UTC-7)</p>
+                <ul>
+                    <li>
+                        Carnelian / Ch'en ★★★★★★                    
+                    </li>
+                    
+                    <li>  
+                    Nightmare / Provence / Reed ★★★★★
+                    </li>
+                    <li>
+                    Accounts for 50% of the odds when pulling a 6★ and 5★
+                    </li>
+                </ul>
+                    
+                    
+            </div>
+        </section>
+
+        
+        <section class="sectionForm">
+            <div class="title"><h1>Create Your Account</h1></div>
             <form id="myForm" autocomplete="on">
                 <div>
-                    <div class="title"><h1>Create Your Account</h1></div>
                     
-                    <p>please fill this form.</p>
+                    
+                    
+                    <label for="fullname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Fullname" name="fullname" id="fullname" required>
 
                     <label for="email"><b>Email</b></label>
                     <input type="email" placeholder="Enter email" name="email" id="email" required>
 
+
+                    <label for="birthdate">Birthdate:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+
+                    
                     <label for="username"><b>Username</b></label>
                     <input type="text" placeholder="Enter Username" name="username" id="username" required>
 
@@ -129,12 +269,15 @@
                 </div>
             </form>
         </section>
+
+        
+
     </main>
     <footer>
         <section class="downBottom">
-            <div>Arknights</div>
+            <div class="title">Arknights</div>
         </section>
     </footer>
-    <script src="source.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

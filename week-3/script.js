@@ -1,22 +1,36 @@
-const hamburger = document.getElementById('hamburger');
-const navbarLink = document.getElementById('navbarLink');
 
-hamburger.addEventListener('click', function () {
-    if (navbarLink.style.display === 'block') {
-        navbarLink.style.display = 'none';
+const hamburger = document.querySelector(".hamburger")
+
+const menuMobile = document.querySelector(".navbarMobile")
+const menuHeader = document.querySelector(".navbarLink")
+
+
+hamburger.addEventListener("click", function () {
+    if (menuMobile.style.display === "block") {
+        menuMobile.style.display = "none";
     } else {
-        navbarLink.style.display = 'block';
+        menuMobile.style.display = "block";
     }
 });
+
+window.addEventListener("scroll", function () {
+    if (menuMobile.style.display === "block") {
+      // Close the menu if open when scrolling down
+      menuMobile.style.display  = 'none';
+      
+    }
+  });
 
 
 function handleWindowResize() {
     const windowWidth = window.innerWidth; 
+    
   
-    if (windowWidth > 768) {
-      navbarLink.style.display = 'flex';
+    if (windowWidth >= 768) {
+        menuHeader.style.display = "flex";
+        menuMobile.style.display = "none";
     } else {
-        navbarLink.style.display = 'none';
+        menuHeader.style.display = "none";
     }
   }
   
