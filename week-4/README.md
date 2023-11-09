@@ -1,1 +1,5 @@
-https://roaring-cucurucho-1e3467.netlify.app/
+Netlify subdomain
+ornate-banoffee-39e0b4.netlify.app
+
+Primary domain
+catwalrus.site
