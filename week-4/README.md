@@ -1,5 +1,5 @@
-Netlify subdomain
-ornate-banoffee-39e0b4.netlify.app
+Netlify subdomain : 
+https://www.ornate-banoffee-39e0b4.netlify.app
 
-Primary domain
-catwalrus.site
+Primary domain : 
+http://www.catwalrus.site
