@@ -79,3 +79,7 @@ or this free site link: [https://ornate-banoffee-39e0b4.netlify.app](https://orn
 
 ![Alt text](readme_assets/img18.png)
 
+
+9. Lighthouse Score
+
+![Alt text](readme_assets/img19.png)
